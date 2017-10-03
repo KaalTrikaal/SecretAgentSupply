@@ -72,6 +72,9 @@ nav ul {
 .container .items {
   width: 100%;
 }
+.location .info {
+  width: 300px;
+}
 .items, .location {
   display: flex;
   justify-content: space-between;
@@ -84,7 +87,7 @@ img {
   margin: 2rem 0;
 }
 .pen, .watch, .glasses {
-width: 420px;
+width: 300px;
 height: 254px;
 align-items: center;
 justify-content: space-between;
