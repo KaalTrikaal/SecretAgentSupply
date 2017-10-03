@@ -127,3 +127,46 @@ footer {
   padding: 5rem 0px;
   display: block;
 }
+@media only screen and (max-width: 1024px) {
+  .location .info {
+    width: 35%;
+  }
+  .pen, .watch, .glasses {
+    width: 37%;
+}
+}
+@media only screen and (max-width: 480px) {
+.banner {
+  height: 15rem;
+}
+.headline h4 {
+  font-family: Helvetica;
+  font-size: 0.77rem;
+  font-weight: bold;
+  }
+.headline h1 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.pen, .watch, .glasses {
+  width: 90%;
+}
+.location .info {
+  width: 90%;
+}
+.headline {
+  width: 10rem;
+  height: 75px;
+  position: relative;
+  top: 4em;
+  padding: 1em 1.5em;
+}
+nav ul{
+  width: 300px;
+  font-size: 10px;
+}
+footer {
+  text-align: center;
+}
+}
