@@ -162,11 +162,18 @@ footer {
   top: 4em;
   padding: 1em 1.5em;
 }
+nav {
+  width: 300px;
+}
 nav ul{
   width: 300px;
   font-size: 10px;
 }
 footer {
   text-align: center;
+  font-size: 18px;
+}
+.location .info {
+  width: 100px;
 }
 }
